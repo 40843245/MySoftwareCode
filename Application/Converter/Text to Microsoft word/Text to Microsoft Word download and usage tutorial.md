@@ -1,8 +1,7 @@
-
 # Module
+aspose-words
 
 # Install
-
 step 1: 
 In the terminal, simply type
 pip install aspose-words
@@ -13,9 +12,15 @@ import aspose.words as aw
 
 # Use
 step 1:
-Create an object for the blank document.
+## create a blank file.
+To create an object for the blank document.
 Type such following line in your IDE.
 doc = aw.Document()
+
+## modifying the existing file.
+To modifying the existing file.
+Type such following line in your IDE.
+doc = aw.Document('test.text')
 
 step 2:
 To create a document builder to add content to the document.
