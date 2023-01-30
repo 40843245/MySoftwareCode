@@ -5,7 +5,6 @@ We can automatically get the transcript with less effort if we use this module.
 # NOTE
 1. check the module "youtube_transcript_api" can work as well.
 
-
 # Import
 1. To use the module "youtube_transcript_api", import the module by typing
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -37,6 +36,17 @@ I called the variable -- video_info.
 Type the such following code in you IDE.
 video_info=YouTubeTranscriptApi.get_transcript(video_id)
 
+# Complaint
+I really want to complain about the website.
+https://pypi.org/project/youtube-transcript-api/0.4.4/#api
+It does NOT tell me what the variable video_id should be.
+I found the solution for a while. 
+And I really appreicate to the YT video.
+https://www.youtube.com/watch?v=3V-MJhJvRWg&t=2s
+I found the solution in this video.
+
+
+# Example
 ## Example Code
 
 from youtube_transcript_api import YouTubeTranscriptApi
